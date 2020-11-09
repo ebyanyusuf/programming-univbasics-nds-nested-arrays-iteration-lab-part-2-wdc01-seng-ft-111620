@@ -1,3 +1,5 @@
+def find_min_nested_arrays(src)
+
 outer_results = []
    row_index = 0
    while row_index < src.length do
@@ -13,3 +15,5 @@ outer_results = []
    row_index += 1
  end
  outer_results
+ 
+ end
